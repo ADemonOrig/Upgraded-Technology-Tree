@@ -12,3 +12,4 @@ health: 120
 itemCapacity: 20
 speed: 0.7
 category: distribution
+research: plastanium-conveyor
