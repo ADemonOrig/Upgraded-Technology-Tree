@@ -1,0 +1,6 @@
+type: liquid
+name: Kinetic Mass
+color: FCF387
+viscosity: 0.99
+temperature: 1
+explosiveness: 1
