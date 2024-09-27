@@ -10,5 +10,5 @@ surge-alloy/1
 ]
 health: 120
 itemCapacity: 20
-speed: 5/60
+speed: 0.7
 category: distribution
