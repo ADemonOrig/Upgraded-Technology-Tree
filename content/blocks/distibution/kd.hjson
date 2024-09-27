@@ -8,4 +8,5 @@ surge-alloy/1
 speed: 4
 health: 100
 category: distribution
+armored: true
 research: titanium-conveyor
