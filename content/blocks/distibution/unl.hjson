@@ -1,0 +1,16 @@
+type: UnitCargoUnloadPoint
+name: Drone Unloading Point
+size: 2
+health: 100
+itemCapacity: 100
+separateItemCapacity: true
+requirements: [
+lead/100
+titanium/100
+silicon/50
+]
+category: distribution
+hasItems: true
+outputItems: true
+buildTime: 200
+research: l

@@ -1,0 +1,21 @@
+type: UnitCargoLoader
+name: Drone Station
+size: 3
+health: 200
+unitType: cd
+itemCapacity: 200
+separateItemCapacity: true
+requirements: [
+lead/200
+titanium/200
+silicon/180
+surge-alloy/30
+]
+category: distribution
+buildTime: 360
+hasItems: true
+hasPower: true
+consumes: {
+power: 2
+}
+research: mass-driver
