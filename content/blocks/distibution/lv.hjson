@@ -1,0 +1,8 @@
+type: LiquidVoid
+name: Liquid Void
+research: iv
+requirements: [
+titanium/10
+metaglass/10
+plastanium/10
+]

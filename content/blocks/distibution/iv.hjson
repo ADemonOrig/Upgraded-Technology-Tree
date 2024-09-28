@@ -1,0 +1,8 @@
+type: ItemVoid
+name: Item Void
+research: incinerator
+requirements: [
+titanium: 10
+graphite: 10
+plastanium: 10
+]
