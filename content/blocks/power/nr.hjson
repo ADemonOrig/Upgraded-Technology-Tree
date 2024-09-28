@@ -1,6 +1,6 @@
 type: NuclearReactor
 name: Nuclear Reactor
-explosionRadius: 100
+explosionRadius: 60
 explosionDamage: 8000
 fuelItem: thorium
 itemDuration: 240
