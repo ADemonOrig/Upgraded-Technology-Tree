@@ -8,7 +8,7 @@ explosionPuddles: 120
 explosionPuddleAmount: 250
 explosionPuddleLiquid: neoplasm
 explodeEffect: neoplasmSplat
-itemDuration: 180
+itemDuration: 240
 drawer: {
 type: drawMulti
 drawers: [
@@ -64,12 +64,12 @@ category: power
 hasPower: true
 hasItem: true
 hasLiquid: true
-liquidCapacity: 80
+liquidCapacity: 60
 itemCapacity: 10
-powerProduction: 150
+powerProduction: 100
 consumes: {
 liquids: [
-water/0.6
+water/0.3
 slag/0.1
 ]
 items: [
