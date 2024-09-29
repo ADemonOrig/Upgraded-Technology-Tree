@@ -1,6 +1,6 @@
 type: NuclearReactor
 name: Nuclear Reactor
-explosionRadius: 60
+explosionRadius: 45
 explosionDamage: 8000
 fuelItem: thorium
 itemDuration: 240
@@ -20,6 +20,14 @@ type: drawRegion
 suffix: -center
 }
 {
+type: drawLiquidTile
+drawLiquid: cryofluid
+}
+{
+type: drawRegion
+suffix: -top
+}
+{
 type: drawDefault
 }
 ]
@@ -32,7 +40,7 @@ hasItem: true
 hasLiquid: true
 liquidCapacity: 30
 itemCapacity: 30
-powerProduction: 100
+powerProduction: 30
 consumes: {
 liquids: [
 cryofluid/0.075
