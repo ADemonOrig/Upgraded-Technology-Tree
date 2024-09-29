@@ -22,7 +22,9 @@ liquids: [
 water: 0.05
 ]
 }
-outputLiquid: nitrogen/0.025
+outputLiquids: [
+nitrogen/0.025
+]
 drawer: {
 type: drawMulti
 drawers: [
