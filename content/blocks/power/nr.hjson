@@ -35,7 +35,7 @@ itemCapacity: 30
 powerProduction: 30
 consumes: {
 liquids: [
-nitrogen/0.05
+nitrogen/0.025
 ]
 items: [
 thorium/5
