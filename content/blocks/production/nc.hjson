@@ -4,7 +4,7 @@ healrh: 320
 size: 3
 liquidCapacity: 10
 hasLiquid: true
-category: production
+category: crafting
 craftTime: 60
 research: ac
 updateEffect: none
