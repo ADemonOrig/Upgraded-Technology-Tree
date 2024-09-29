@@ -38,5 +38,8 @@ drawLiquid: water
 type: drawLiquidTile
 drawLiquid: nitrogen
 }
+{
+type: drawDefault
+}
 ]
 }
