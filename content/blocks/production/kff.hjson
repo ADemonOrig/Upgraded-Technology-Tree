@@ -7,7 +7,7 @@ ItemCapacity: 20
 liquidCapacity: 20
 hasLiquid: true
 category: crafting
-craftTime: 180
+craftTime: 120
 research: surge-smelter
 updateEffect: none
 requirements: [
@@ -25,8 +25,8 @@ slag/0.05
 nitrogen/0.025
 ]
 items: [
-thorium/4
-silicon/8
+thorium/5
+silicon/9
 ]
 }
 outputItems: [
@@ -38,6 +38,10 @@ drawers: [
 {
 type: drawRegion
 suffix: -bottom
+}
+{
+type: drawLiquidTile
+drawLiquid: slag
 }
 {
 type: drawCrucibleFlame
