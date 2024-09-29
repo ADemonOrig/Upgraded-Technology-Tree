@@ -1,6 +1,6 @@
 type: NuclearReactor
 name: Kinetic Generator
-explosionRadius: 30
+explosionRadius: 25
 explosionDamage: 4000
 explosionPuddles: 80
 explosionPuddleLiquid: kinetic-mass
@@ -17,7 +17,7 @@ hasItem: true
 hasLiquid: true
 liquidCapacity: 10
 itemCapacity: 20
-powerProduction: 33,333333333334
+powerProduction: 35
 consumes: {
 liquids: [
 cryofluid/0.05
