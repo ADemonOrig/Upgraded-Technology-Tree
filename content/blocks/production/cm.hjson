@@ -1,0 +1,48 @@
+type: GenericCrafter
+name: Cyanogen Mixer
+health: 340
+size: 3
+hasItem: true
+ItemCapacity: 10
+liquidCapacity: 10
+hasLiquid: true
+category: crafting
+craftTime: 60
+research: nc
+updateEffect: none
+requirements: [
+titanium/90
+silicon/80
+graphite/90
+plastanium/60
+]
+consumes: {
+power: 1
+liquids: [
+nitrogen/0.05
+]
+items: [
+graphite/1
+]
+}
+outputLiquid: cyanogen/0.025
+drawer: {
+type: drawMulti
+drawers: [
+{
+type: drawRegion
+suffix: -bottom
+}
+{
+type: drawLiquidTile
+drawLiquid: nitrogen
+}
+{
+type: drawLiquidTile
+drawLiquid: cyanogen
+}
+{
+type: drawDefault
+}
+]
+}

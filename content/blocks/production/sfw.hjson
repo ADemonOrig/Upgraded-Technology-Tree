@@ -1,0 +1,54 @@
+type: GenericCrafter
+name: Silicon Fiber Weaver
+health: 340
+size: 3
+hasItem: true
+ItemCapacity: 20
+liquidCapacity: 20
+hasLiquid: true
+category: crafting
+craftTime: 120
+research: ps
+updateEffect: none
+requirements: [
+titanium/100
+surge-alloy/30
+silicon/70
+graphite/80
+]
+consumes: {
+power: 2.5
+liquids: [
+cryofluid/0.05
+]
+items: [
+surge-alloy/3
+silicon/4
+]
+}
+outputItems: [
+silicon/8
+]
+drawer: {
+type: drawMulti
+drawers: [
+{
+type: drawRegion
+suffix: -bottom
+}
+{
+type: drawLiquidTile
+drawLiquid: cryofluid
+}
+{
+type: drawRegion
+suffix: -center
+}
+{
+type: drawWeave
+}
+{
+type: drawDefault
+}
+]
+}

@@ -1,0 +1,49 @@
+type: GenericCrafter
+name: kinetic fusion furnace
+health: 450
+size: 3
+hasItem: true
+ItemCapacity: 20
+liquidCapacity: 20
+hasLiquid: true
+category: crafting
+craftTime: 180
+research: surge-smelter
+updateEffect: none
+requirements: [
+thorium/60
+titanium/70
+lead/90
+metaglass/50
+silicon/80
+graphite/90
+]
+consumes: {
+power: 6
+liquids: [
+slag/0.05
+nitrogen/0.025
+]
+items: [
+thorium/4
+silicon/8
+]
+}
+outputItems: [
+surge-alloy/4
+]
+drawer: {
+type: drawMulti
+drawers: [
+{
+type: drawRegion
+suffix: -bottom
+}
+{
+type: drawCrucibleFlame
+}
+{
+type: drawDefault
+}
+]
+}

@@ -1,0 +1,57 @@
+type: GenericCrafter
+name: fiber phase duplicator
+health: 340
+size: 3
+hasItem: true
+ItemCapacity: 20
+liquidCapacity: 10
+hasLiquid: true
+category: crafting
+craftTime: 120
+research: phase-weaver
+updateEffect: none
+requirements: [
+silicon/80
+phase-fabric/20
+surge-alloy/20
+titanium/100
+plastanium/50
+graphite/100
+lead/150
+]
+consumes: {
+power: 4
+liquids: [
+nitrogen/0.05
+]
+items: [
+phase-fabric/2
+silicon/3
+]
+}
+outputItems: [
+phase-fabric/4
+]
+drawer: {
+type: drawMulti
+drawers: [
+{
+type: drawRegion
+suffix: -bottom
+}
+{
+type: drawLiquidTile
+drawLiquid: nitrogen
+}
+{
+type: drawRegion
+suffix: -center
+}
+{
+type: drawWeave
+}
+{
+type: drawDefault
+}
+]
+}

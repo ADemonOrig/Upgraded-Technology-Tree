@@ -1,0 +1,32 @@
+type: ConsumeGenerator
+name: Pathogen Fuel Burner
+drawer: {
+type: drawMulti
+drawers: [
+{
+type: drawDefault
+}
+{
+type: drawWarmupRegion
+}
+]
+}
+health: 200
+size: 2
+category: power
+hasPower: true
+powerProduction: 10
+consumes: {
+liquids: [
+pathogen/6
+]
+}
+requirements: [
+phase-fabric/20
+surge-alloy/30
+silicon/50
+titanium/80
+lead/90
+metaglass/80
+]
+research: kec
