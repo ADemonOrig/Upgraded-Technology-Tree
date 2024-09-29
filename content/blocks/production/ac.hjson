@@ -4,7 +4,7 @@ health: 250
 size: 3
 liquidCapacity: 10
 hasLiquid: true
-category: crafting
+category: production
 craftTime: 60
 research: water-extractor
 updateEffect: none
