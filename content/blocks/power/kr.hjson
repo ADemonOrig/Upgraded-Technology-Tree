@@ -70,6 +70,7 @@ powerProduction: 200
 consumes: {
 liquids: [
 cryofluid/0.6
+nitrogen/0.3
 ]
 items: [
 surge-alloy/4
