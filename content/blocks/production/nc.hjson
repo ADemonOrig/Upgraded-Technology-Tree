@@ -1,0 +1,58 @@
+type: GenericCrafter
+name: Condenser
+health: 240
+size: 3
+hasItem: true
+ItemCapacity: 20
+liquidCapacity: 10
+hasLiquid: true
+category: crafting
+craftTime: 60
+research: ac
+updateEffect: none
+requirements: [
+titanium/70
+silicon/60
+graphite/50
+plastanium/30
+]
+consumes: {
+power: 1.5
+liquids: [
+water/0.1
+]
+items: [
+coal/2
+lead/2
+]
+}
+liquidOutputDirections: [
+1
+3
+]
+outputLiquids: [
+slag/0.1
+nitrogen/0.1
+]
+drawer: {
+type: drawMulti
+drawers: [
+{
+type: drawRegion
+suffix: -bottom
+}
+{
+type: drawLiquidTile
+drawLiquid: water
+}
+{
+type: drawRegion
+}
+{
+type: drawLiquidOutputs
+}
+{
+type: drawDefault
+}
+]
+}
