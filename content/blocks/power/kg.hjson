@@ -10,6 +10,22 @@ explodeEffect: impactReactorExplosion
 fuelItem: surge-alloy
 itemDuration: 480
 health: 2400
+drawer: {
+type: drawMulti
+drawers: [
+{
+type: drawRegion
+suffix: -bottom
+}
+{
+type: drawLiquidTile
+drawLiquid: cryofluid
+}
+{
+type: drawDefault
+}
+]
+}
 size: 3
 category: power
 hasPower: true
