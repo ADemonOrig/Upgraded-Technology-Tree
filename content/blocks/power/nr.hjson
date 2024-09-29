@@ -4,6 +4,19 @@ explosionRadius: 60
 explosionDamage: 8000
 fuelItem: thorium
 itemDuration: 240
+drawer: {
+type: drawMulti
+drawers: [
+{
+type: drawRegion
+suffix: -bottom
+}
+{
+type: drawLiquidTile
+drawLiquid: nitrogen
+}
+]
+}
 health: 3400
 size: 5
 category: power
@@ -16,10 +29,10 @@ powerProduction: 100
 consumes: {
 liquids: [
 cryofluid/0.2
+nitrogen/0.05
 ]
 items: [
-thorium/3
-phase-fabric/1
+thorium/5
 ]
 }
 requirements: [
