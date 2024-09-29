@@ -1,6 +1,6 @@
 type: NuclearReactor
 name: Kinetic Generator
-explosionRadius: 25
+explosionRadius: 30
 explosionDamage: 4000
 explosionPuddles: 80
 explosionPuddleLiquid: kinetic-mass
