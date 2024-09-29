@@ -28,5 +28,8 @@ suffix: -bottom
 type: drawLiquidTile
 drawLiquid: water
 }
+{
+type: drawDefault
+}
 ]
 }
