@@ -49,10 +49,10 @@ drawLiquid: water
 type: drawRegion
 }
 {
-type: drawLiquidOutputs
+type: drawDefault
 }
 {
-type: drawDefault
+type: drawLiquidOutputs
 }
 ]
 }
