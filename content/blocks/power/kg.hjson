@@ -17,7 +17,7 @@ hasItem: true
 hasLiquid: true
 liquidCapacity: 10
 itemCapacity: 20
-powerProduction: 40
+powerProduction: 33,333333333334
 consumes: {
 liquids: [
 cryofluid/0.05
