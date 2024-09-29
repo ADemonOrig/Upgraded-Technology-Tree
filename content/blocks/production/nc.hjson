@@ -19,7 +19,7 @@ surge-alloy/20
 consumes: {
 power: 0.5
 liquids: [
-water: 0.05
+water/0.05
 ]
 }
 outputLiquid: nitrogen/0.025
