@@ -17,14 +17,6 @@ drawLiquid: nitrogen
 }
 {
 type: drawRegion
-suffix: -center
-}
-{
-type: drawLiquidTile
-drawLiquid: cryofluid
-}
-{
-type: drawRegion
 suffix: -top
 }
 {
@@ -43,8 +35,7 @@ itemCapacity: 30
 powerProduction: 30
 consumes: {
 liquids: [
-cryofluid/0.075
-nitrogen/0.075
+nitrogen/0.1
 ]
 items: [
 thorium/5
