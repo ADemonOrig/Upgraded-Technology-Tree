@@ -12,7 +12,7 @@ type: drawWarmupRegion
 }
 ]
 }
-health: 700
+health: 300
 size: 2
 category: power
 hasPower: true
