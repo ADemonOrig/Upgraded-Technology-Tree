@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Atmospheric Condenser
-healrh: 250
+health: 250
 size: 3
 liquidCapacity: 10
 hasLiquid: true
