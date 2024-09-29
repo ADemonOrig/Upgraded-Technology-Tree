@@ -64,13 +64,13 @@ category: power
 hasPower: true
 hasItem: true
 hasLiquid: true
-liquidCapacity: 60
+liquidCapacity: 30
 itemCapacity: 10
 powerProduction: 100
 consumes: {
 liquids: [
 water/0.3
-slag/0.1
+slag/0.05
 ]
 items: [
 coal/4
@@ -86,5 +86,5 @@ metaglass/200
 phase-fabric/200
 plastanium/300
 ]
-outputLiquid: neoplasm/0.4
+outputLiquid: neoplasm/0.2
 research: nr
