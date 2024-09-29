@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Nitrogen Condenser
-healrh: 320
+health: 320
 size: 3
 liquidCapacity: 10
 hasLiquid: true
