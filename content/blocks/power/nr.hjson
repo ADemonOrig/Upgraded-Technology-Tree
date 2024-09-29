@@ -15,6 +15,13 @@ suffix: -bottom
 type: drawLiquidTile
 drawLiquid: nitrogen
 }
+{
+type: drawRegion
+suffix: -center
+}
+{
+type: drawDefault
+}
 ]
 }
 health: 3400
