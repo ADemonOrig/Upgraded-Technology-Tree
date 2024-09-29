@@ -1,0 +1,9 @@
+type: liquid
+name: Pathogen Mixture
+color: FFD59E
+viscosity: 0.999
+temperature: 2
+heatCapacity: 2
+flammability: 2
+research: kinetic-mass
+alwaysUnlocked: false
