@@ -26,7 +26,7 @@ suffix: -bottom
 }
 {
 type: drawLiquidTile
-drawLiquid: weter
+drawLiquid: water
 }
 ]
 }
