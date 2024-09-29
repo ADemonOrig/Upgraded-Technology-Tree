@@ -16,9 +16,9 @@ graphite/70
 lead/100
 surge-alloy/10
 ]
-outputLiquid: {
-water/0.025
-}
+outputLiquids: [
+water/0.05
+]
 drawer: {
 type: drawMulti
 drawers: [
