@@ -19,7 +19,7 @@ plastanium/60
 consumes: {
 power: 1
 liquids: [
-nitrogen/0.05
+slag/0.05
 ]
 items: [
 graphite/1
@@ -35,7 +35,7 @@ suffix: -bottom
 }
 {
 type: drawLiquidTile
-drawLiquid: nitrogen
+drawLiquid: slag
 }
 {
 type: drawLiquidTile
