@@ -1,5 +1,6 @@
 type: ConsumeGenerator
 name: Neoplasm Incinerator
+liquidDuration: 60
 drawer: {
 type: drawMulti
 drawers: [
