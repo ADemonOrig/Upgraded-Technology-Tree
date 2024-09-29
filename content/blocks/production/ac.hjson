@@ -4,7 +4,7 @@ healrh: 250
 size: 3
 liquidCapacity: 10
 hasLiquid: true
-category: production
+category: crafting
 craftTime: 60
 research: water-extractor
 updateEffect: none
@@ -16,7 +16,7 @@ graphite/70
 lead/100
 surge-alloy/10
 ]
-outputLiquid: water/0.05
+outputLiquid: water/0.025
 drawer: {
 type: drawMulti
 drawers: [
