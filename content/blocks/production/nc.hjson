@@ -1,0 +1,42 @@
+type: GenericCrafter
+name: Nitrogen Condenser
+healrh: 320
+size: 3
+liquidCapacity: 10
+hasLiquid: true
+category: production
+craftTime: 60
+research: ac
+updateEffect: none
+requirements: [
+lead/120
+titanium/90
+silicon/80
+graphite/90
+plastanium/50
+surge-alloy/20
+]
+consumes: {
+power: 1
+liquids: [
+water: 0.05
+]
+}
+outputLiquid: nitrogen/0.025
+drawer: {
+type: drawMulti
+drawers: [
+{
+type: drawRegion
+suffix: -bottom
+}
+{
+type: drawLiquidTile
+srawLiquid: water
+}
+{
+type: drawLiquidTile
+drawLiquid: nitrogen
+}
+]
+}
