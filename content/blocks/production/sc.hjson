@@ -19,7 +19,7 @@ graphite/70
 plastanium/30
 ]
 consumes: {
-power: 1
+power: 1.5
 liquids: [
 water/0.1
 ]
@@ -28,12 +28,7 @@ coal/2
 lead/1
 ]
 }
-liquidOutputDirections: [
-1
-]
-outputLiquids: [
-slag/0.2
-]
+outputLiquid: slag/0.2
 drawer: {
 type: drawMulti
 drawers: [
@@ -46,17 +41,7 @@ type: drawLiquidTile
 drawLiquid: water
 }
 {
-type: drawLiquidTile
-drawLiquid: slag
-}
-{
 type: drawDefault
-}
-{
-type: drawRegion
-}
-{
-type: drawLiquidOutputs
 }
 ]
 }
