@@ -22,12 +22,7 @@ liquids: [
 slag/0.1
 ]
 }
-liquidOutputDirections: [
-1
-]
-outputLiquids: [
-nitrogen/0.1
-]
+outputLiquid: nitrogen/0.1
 drawer: {
 type: drawMulti
 drawers: [
@@ -38,10 +33,6 @@ suffix: -bottom
 {
 type: drawLiquidTile
 drawLiquid: slag
-}
-{
-type: drawLiquidTile
-drawLiquid: nitrogen
 }
 {
 type: drawDefault
