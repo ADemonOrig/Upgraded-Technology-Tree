@@ -22,7 +22,7 @@ graphite/100
 lead/150
 ]
 consumes: {
-power: 3
+power: 6
 liquids: [
 cyanogen/0.025
 ]
@@ -59,4 +59,4 @@ type: drawDefault
 ]
 }
 ambientSound: techloop
-ambientSoundVolume: 0.02
+ambientSoundVolume: 0.04
