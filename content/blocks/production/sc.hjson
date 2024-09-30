@@ -1,0 +1,62 @@
+type: AttributeCrafter
+name: Slag Centrifuge
+boostScale: 0.1
+maxBoost: 1
+health: 240
+size: 3
+hasItem: true
+itemCapacity: 20
+liquidCapacity: 20
+hasLiquid: true
+category: crafting
+craftTime: 60
+research: ac
+updateEffect: none
+requirements: [
+lead/100
+silicon/50
+graphite/70
+plastanium/30
+]
+consumes: {
+power: 1
+liquids: [
+water/0.1
+]
+items: [
+coal/2
+lead/1
+]
+}
+liquidOutputDirections: [
+1
+]
+outputLiquids: [
+slag/0.2
+]
+drawer: {
+type: drawMulti
+drawers: [
+{
+type: drawRegion
+suffix: -bottom
+}
+{
+type: drawLiquidTile
+drawLiquid: water
+}
+{
+type: drawLiquidTile
+drawLiquid: slag
+}
+{
+type: drawDefault
+}
+{
+type: drawRegion
+}
+{
+type: drawLiquidOutputs
+}
+]
+}

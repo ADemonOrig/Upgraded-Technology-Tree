@@ -1,0 +1,59 @@
+type: AttributeCrafter
+name: Silicon Melter
+attribute: magmarock
+boostScale: 0.1
+maxBoost: 1
+health: 400
+size: 3
+hasItem: true
+itemCapacity: 30
+liquidCapacity: 20
+hasLiquid: true
+category: crafting
+craftTime: 180
+research: silicon-crucible
+updateEffect: explosion
+requirements: [
+thorium/80
+titanium/70
+silicon/60
+graphite/80
+plastanium/20
+surge-alloy/20
+]
+consumes: {
+power: 5
+liquids: [
+slag/0.2
+]
+items: [
+graphite/1
+sand/3
+thorium/2
+surge-alloy/1
+]
+}
+outputItems: [
+silicon/16
+]
+drawer: {
+type: drawMulti
+drawers: [
+{
+type: drawRegion
+suffix: -bottom
+}
+{
+type: drawLiquidTile
+drawLiquid: slag
+}
+{
+type: drawCrucibleFlame
+}
+{
+type: drawDefault
+}
+]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.9
