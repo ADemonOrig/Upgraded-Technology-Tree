@@ -21,14 +21,6 @@ type: drawLiquidTile
 drawLiquid: cryofluid
 }
 {
-type: drawRegion
-suffix: -center
-}
-{
-type: drawLiquidTile
-drawLiquid: nitrogen
-}
-{
 type: drawLiquidTile
 drawLiquid: kinetic-mass
 }
@@ -92,4 +84,4 @@ metaglass/350
 ]
 research: kg
 ambientSound: smelter
-ambientSoundVolume: 1
+ambientSoundVolume: 0.9
