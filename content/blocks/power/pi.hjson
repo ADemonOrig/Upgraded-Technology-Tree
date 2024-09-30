@@ -22,6 +22,10 @@ type: drawLiquidTile
 drawLiquid: pathogen
 }
 {
+type: drawRegion
+suffix: -mid
+}
+{
 type: drawLiquidTile
 drawLiquid: cyanogen
 }
@@ -44,7 +48,7 @@ liquids: [
 cyanogen/1
 ]
 items: [
-phase-fabric/8
+phase-fabric/12
 ]
 }
 outputLiquids: pathogen/0.34
