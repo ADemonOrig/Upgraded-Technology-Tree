@@ -37,11 +37,5 @@ drawLiquid: slag
 {
 type: drawDefault
 }
-{
-type: drawRegion
-}
-{
-type: drawLiquidOutputs
-}
 ]
 }
