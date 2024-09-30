@@ -39,6 +39,7 @@ drawers: [
 {
 type: drawRegion
 suffix: -bottom
+}
 {
 type: drawLiquidTile
 drawLiquid: slag
