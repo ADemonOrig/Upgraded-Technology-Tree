@@ -1,7 +1,7 @@
 type: ConsumeGenerator
 name: Pathogen Interferer
 explodeOnFull: true
-explosionRadius: 20
+explosionRadius: 30
 explosionDamage: 6700
 explosionPuddleRadius: 12
 explosionPuddles: 120
@@ -9,17 +9,13 @@ explosionPuddleAmount: 250
 explosionPuddleLiquid: pathogen
 explodeEffect: impactReactorExplosion
 explodeSound: explosionbig
-itemDuration: 660
+itemDuration: 600
 drawer: {
 type: drawMulti
 drawers: [
 {
 type: drawRegion
 suffix: -bottom
-}
-{
-type: drawLiquidTile
-drawLiquid: slag
 }
 {
 type: drawLiquidTile
@@ -45,7 +41,6 @@ itemCapacity: 20
 powerProduction: 250
 consumes: {
 liquids: [
-slag/0.4
 cyanogen/1
 ]
 items: [
@@ -66,6 +61,6 @@ metaglass/450
 ]
 research: neor
 ambientSound: smelter
-ambientSoundVolume: 1
+ambientSoundVolume: 0.5
 updateEffect: impactReactorExplosion
 updateEffectSound: explosionbig
