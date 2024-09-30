@@ -51,7 +51,7 @@ items: [
 phase-fabric/12
 ]
 }
-outputLiquids: pathogen/0.34
+outputLiquid: pathogen/0.34
 requirements: [
 surge-alloy/550
 phase-fabric/200
