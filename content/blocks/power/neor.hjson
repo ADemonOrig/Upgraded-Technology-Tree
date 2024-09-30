@@ -85,4 +85,4 @@ plastanium/300
 outputLiquid: neoplasm/0.2
 research: nr
 ambientSound: smelter
-ambientSoundVolume: 1
+ambientSoundVolume: 0.5
