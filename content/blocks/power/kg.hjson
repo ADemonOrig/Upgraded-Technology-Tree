@@ -22,11 +22,11 @@ type: drawLiquidTile
 drawLiquid: cryofluid
 }
 {
-type: drawRegion
-suffix: -top
+type: drawDefault
 }
 {
-type: drawDefault
+type: drawRegion
+suffix: -top
 }
 ]
 }
