@@ -4,6 +4,7 @@ boostScale: 0.1
 maxBoost: 1
 health: 240
 size: 3
+itemDuration: 180
 hasItem: true
 itemCapacity: 20
 liquidCapacity: 20
