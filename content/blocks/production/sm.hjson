@@ -1,6 +1,5 @@
 type: AttributeCrafter
 name: Silicon Melter
-attribute: magmarock
 boostScale: 0.1
 maxBoost: 1
 health: 400
@@ -12,7 +11,6 @@ hasLiquid: true
 category: crafting
 craftTime: 180
 research: silicon-crucible
-updateEffect: explosion
 requirements: [
 thorium/80
 titanium/70
@@ -24,13 +22,13 @@ surge-alloy/20
 consumes: {
 power: 5
 liquids: [
-slag/0.2
+slag/0.1
 ]
 items: [
-graphite/1
-sand/3
-thorium/2
-surge-alloy/1
+graphite/3
+sand/15
+thorium/3
+surge-alloy/2
 ]
 }
 outputItems: [
@@ -56,4 +54,4 @@ type: drawDefault
 ]
 }
 ambientSound: smelter
-ambientSoundVolume: 0.9
+ambientSoundVolume: 0.5
