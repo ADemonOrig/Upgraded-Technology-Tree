@@ -40,10 +40,6 @@ type: drawLiquidTile
 drawLiquid: slag
 }
 {
-type: drawLiquidTile
-drawLiquid: cyanogen
-}
-{
 type: drawDefault
 }
 ]
