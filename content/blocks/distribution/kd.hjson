@@ -1,0 +1,12 @@
+type: Duct
+name: Kinetic Duct
+requirements: [
+titanium/2
+silicon/1
+surge-alloy/1
+]
+speed: 4
+health: 100
+category: distribution
+armored: true
+research: titanium-conveyor
