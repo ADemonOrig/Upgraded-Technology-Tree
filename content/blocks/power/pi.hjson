@@ -1,10 +1,10 @@
 type: ConsumeGenerator
 name: Pathogen Interferer
 explodeOnFull: true
-explosionRadius: 30
+explosionRadius: 40
 explosionDamage: 6700
-explosionPuddleRadius: 12
-explosionPuddles: 120
+explosionPuddleRadius: 20
+explosionPuddles: 300
 explosionPuddleAmount: 250
 explosionPuddleLiquid: pathogen
 explodeEffect: impactReactorExplosion
@@ -41,7 +41,7 @@ hasPower: true
 hasItem: true
 hasLiquid: true
 liquidCapacity: 80
-itemCapacity: 20
+itemCapacity: 60
 powerProduction: 250
 consumes: {
 liquids: [
@@ -68,3 +68,28 @@ ambientSound: smelter
 ambientSoundVolume: 0.5
 updateEffect: impactReactorExplosion
 updateEffectSound: explosionbig
+effectChance: 0.5
+generateEffectRange: 1
+generateEffect: {
+type: RadialEffect
+effect: {
+type: multiEffect
+effects: [
+{
+type: ParticleEffect
+particles: 3
+lifetime: 60
+interp: circleOut
+length: 20
+cone: -8
+sizeFrom: 2
+sizeTo: 3
+colorFrom: 8DEEBB
+colorTo: 8DEEBB
+}
+]
+}
+rotationOffset: 0
+lengthOffset: 12
+amount: 4
+}
