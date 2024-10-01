@@ -27,8 +27,8 @@ slag/0.05
 nitrogen/0.025
 ]
 items: [
-thorium/4
-silicon/8
+thorium/3
+silicon/7
 ]
 }
 outputItems: [
