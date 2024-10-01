@@ -8,7 +8,7 @@ explosionPuddleAmount: 200
 explosionPuddleRadius: 7
 explodeEffect: impactReactorExplosion
 fuelItem: surge-alloy
-itemDuration: 480
+itemDuration: 600
 health: 2400
 drawer: {
 type: drawMulti
