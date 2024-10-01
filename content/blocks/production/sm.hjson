@@ -25,9 +25,9 @@ liquids: [
 slag/0.1
 ]
 items: [
-graphite/3
+graphite/5
 sand/15
-thorium/3
+thorium/4
 surge-alloy/2
 ]
 }
