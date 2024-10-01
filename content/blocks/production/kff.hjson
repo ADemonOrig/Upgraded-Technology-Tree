@@ -23,16 +23,16 @@ graphite/90
 consumes: {
 power: 6
 liquids: [
-slag/0.05
-nitrogen/0.025
+slag/0.1
+nitrogen/0.05
 ]
 items: [
-thorium/3
-silicon/7
+thorium/5
+silicon/9
 ]
 }
 outputItems: [
-surge-alloy/4
+surge-alloy/3
 ]
 drawer: {
 type: drawMulti
