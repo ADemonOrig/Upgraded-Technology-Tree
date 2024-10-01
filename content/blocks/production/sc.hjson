@@ -4,13 +4,12 @@ boostScale: 0.1
 maxBoost: 1
 health: 240
 size: 3
-itemDuration: 180
 hasItem: true
 itemCapacity: 20
 liquidCapacity: 20
 hasLiquid: true
 category: crafting
-craftTime: 60
+craftTime: 180
 research: ac
 updateEffect: none
 requirements: [
