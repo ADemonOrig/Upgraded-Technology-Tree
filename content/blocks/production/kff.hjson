@@ -12,6 +12,7 @@ category: crafting
 craftTime: 180
 research: surge-smelter
 requirements: [
+plastanium/40
 thorium/60
 titanium/70
 lead/90
