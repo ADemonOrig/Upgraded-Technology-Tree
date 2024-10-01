@@ -5,7 +5,7 @@ maxBoost: 1
 health: 340
 size: 3
 hasItem: true
-ItemCapacity: 10
+itemCapacity: 15
 liquidCapacity: 10
 hasLiquid: true
 category: crafting
